@@ -15,7 +15,7 @@ export function MovieDetails(props) {
         }
         fetchDetails(params);
     }, [params]);
-
+//eslint-disable-next-line
     const pageTitle = useTitle(data.title);
 
     return (
